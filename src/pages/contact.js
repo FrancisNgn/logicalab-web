@@ -1,13 +1,15 @@
 import React from "react"
-import { Link } from "gatsby"
 import Header from "../components/header"
+import Container from "../components/containers"
 
 export default function Contact() {
   return (
-    <div style={{ color: `teal` }}>
-      <Link to="/">Home</Link>
-      <Header headerText="Contact" />
-      <p>Send us a message!</p>
-    </div>
+    <Container>
+      <Header title="Contact" />
+      <h4>I'd love to talk! Email me at the address below</h4>
+      <p>
+        <a href="mailto:info@logicalab.com">info@logicalab.com</a>
+      </p>
+    </Container>
   )
 }

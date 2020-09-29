@@ -1,13 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
-import Header from "../components/header"
+import Container from "../components/containers"
 
 export default function Contact() {
   return (
-    <div style={{ color: `teal` }}>
-      <Header headerText="404" />
+    <Container>
+      <h1>404</h1>
       <p>Page not found !</p>
       <p>Go to <Link to="/">Home</Link></p>
-    </div>
+    </Container>
   )
 }
